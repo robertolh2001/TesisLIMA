@@ -14,9 +14,17 @@ Bajar el archivo ~texlive2013.iso~.
 Correr
 
 #+begin_src sh
-sudo mount -t iso9660 -o ro,loop,noauto texlive2012.iso /mnt
+sudo mount -t iso9660 -o ro,loop,noauto texlive2013.iso /mnt
 #+end_src
 
-luego ~cd /mnt~ y luego  ~sudo ./install-tl~
+luego
+
+#+begin_src sh
+/mnt$ sudo mkdir -p /usr/local/texlive
+/mnt$ sudo chown -R $USER /usr/local/texlive/
+#+end_src
+
+
+luego ~cd /mnt~ y luego  ~./install-tl~
 
 * Comandos
