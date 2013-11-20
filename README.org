@@ -19,6 +19,13 @@ Clonar mi configuración
   git clone git@github.com:rvf0068/emacs.d.git .emacs.d
 #+END_SRC
 
+Antes de correr Emacs hay que instalar ~texinfo~ y compilar org-mode:
+
+#+BEGIN_SRC sh
+  cd .emacs.d/site-lisp/org-mode
+  make
+#+END_SRC
+
 * TeX Live 
 
 Bajar el archivo ~texlive2013.iso~.
