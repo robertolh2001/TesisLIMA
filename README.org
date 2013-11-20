@@ -1,0 +1,12 @@
+#+title: Instrucciones
+
+* Emacs
+
+Ver las instrucciones en:
+
+https://launchpad.net/~cassou/+archive/emacs
+
+para instalar una versión reciente de Emacs (más reciente que la que
+está en los repositorios)
+
+* Comandos
