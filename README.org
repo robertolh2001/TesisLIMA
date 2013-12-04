@@ -3,7 +3,6 @@
 - Sacar una cuenta en http://github.com. 
 - Seguir las instrucciones en https://help.github.com/articles/generating-ssh-keys
 
-
 * Emacs
 
 Ver las instrucciones en:
@@ -43,7 +42,16 @@ luego
 /mnt$ sudo chown -R $USER /usr/local/texlive/
 #+end_src
 
-
 luego ~cd /mnt~ y luego  ~./install-tl~
+
+Añadir
+
+#+BEGIN_SRC sh
+  PATH=/usr/local/texlive/2013/bin/x86_64-linux:$PATH; export PATH
+  MANPATH=/usr/local/texlive/2013/texmf/doc/man:$MANPATH; export MANPATH
+  INFOPATH=/usr/local/texlive/2013/texmf/doc/info:$INFOPATH; export INFOPATH
+#+END_SRC
+
+al archivo ~.profile~ y reiniciar.
 
 * Comandos
